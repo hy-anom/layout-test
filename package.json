@@ -5,10 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "surge dist %npm_package_config_deployUrl%"
-  },
-  "config": {
-   "deployUrl": "https://layout-test-tonjoo2.surge.sh"
+    "deploy": "yarn build && surge dist %npm_package_config_deployUrl%"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -27,5 +24,8 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "config": {
+    "deployUrl": "https://layout-test-tonjoo2.surge.sh"
   }
 }

@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import App from './App.vue';
-import './registerServiceWorker';
+import wb from "./registerServiceWorker";
 import router from './router';
 
+
+Vue.prototype.$workbox = wb;
 
 // bootstrap components
 import BootstrapVue from 'bootstrap-vue';
