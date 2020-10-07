@@ -141,7 +141,7 @@ export default {
 	.contact-wrapper {
 		padding: 12px;
 		height: 100%;
-		overflow: scroll;
+		overflow: auto;
 	}
 
 	.contact-paging	{
