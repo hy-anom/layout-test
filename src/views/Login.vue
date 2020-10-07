@@ -1,6 +1,5 @@
 <template>
 	<div class="home">
-		<!-- <img alt="Vue log12o" src="../assets/logo.png"> -->
 		<div class="login-wrapper">
 			<p class="login-title">Tonjoo Test</p>
 
@@ -42,8 +41,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios';
 
 export default {
@@ -57,10 +54,6 @@ export default {
 			isLoading: false,
 		};
 	},
-
-	// mounted() {
-
-	// },
 
 	methods: {
 		onSubmit () {
