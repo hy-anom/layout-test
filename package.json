@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "surge dist %npm_package_config_deployUrl%"
+  },
+  "config": {
+   "deployUrl": "https://layout-test-tonjoo2.surge.sh"
   },
   "dependencies": {
     "axios": "^0.20.0",
